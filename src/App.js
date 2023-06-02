@@ -16,7 +16,6 @@ function App() {
     <LanguageProvider>
       <div className="App">
         <NavMenu />
-        <About />
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/project" element={<Project />} />
